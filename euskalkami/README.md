@@ -4,7 +4,7 @@ EusKalKami
 DESCRIPCIÓN:
 
 
-La aplicación está basada en un servidor python alojado en el Google App Engine que es el que trata las peticiones POST que se realizan en aplicación móvil.
+El proyecto está basado en dos apps: una web escrita en python y alojada en el Google App Engine que es el que trata las peticiones POST que se realizan en aplicación móvil (Android).
 
 
 Se realizan dos peticiones: una para ver la cantidad de producto que existe en el momento que se entra a detalles de producto (Máximo: x) y otra para efectuar la transacción y guardarla en una BD en el servidor. Hay ejemplos en capturas de imagen de como es guardada esta información.
