@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:EuskalKami="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_settings"
+        EuskalKami:showAsAction="never"
+        android:title="Settings"/>
+
+
+
+    <item
+        android:id="@+id/menu_maps"
+        EuskalKami:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="Dónde estamos"/>
+</menu>
